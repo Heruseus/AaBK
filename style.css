@@ -1,4 +1,289 @@
 html{
-    margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    width: 56%;
+    margin: 0 auto 0 auto;
+}
+
+h2{
+    font-size: 24px;
+    color: darkred;
+}
+
+h3{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 10px 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.header1{
+    display: flex;
+    align-items: baseline;
+    color: white;
+    background-color: red;
+}
+
+.header1 img{
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.header2{
+    display: flex;
+    align-items: baseline;
+    color: white;
+    background-color: black;
+}
+
+.header2 img{
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.butten{
+    height: 20px;
+    width: 40px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.Logo{
+    background-color: white;
+}
+
+.Logo img{
+    height: 35px;
+    width: 90px;   
+}
+
+.header-links ul{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0;
+}
+
+.header-links a{
+    font-weight: 500;
+    color: black;
+}
+
+header .current a{
+    padding: 15px 5px;
+    color: white;
+    background-color: red;
+}
+
+.header-img{
+    display: flex;
+}
+
+.icon{
+    margin: 0 5px;
+}
+
+.icon img{
+    height: 35px;
+    width: 35px;
+    border-radius: 25px;
+}
+/* hero-banner */
+.hero-banner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-image: url(./img/cards.jpg);
+    background-position: center;
+    z-index: 1;
+}
+
+.hero-banner-img{
+    height: 150px;
+    width: 325px;
+    background-color: white;
+}
+
+.hero-banner-img img{
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+/* info */
+.info{
+    display: grid;
+    grid-template-columns: 35% 15px 35% 15px auto;
+    grid-template-rows: 30% 15px 21% 15px 430px;
+    height: 1450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.padding-red{
+    margin-left: 5px;
+    padding-right: 48px;
+}
+/*velkommen*/
+.velkommen{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height: 100%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.velkommen-img img{
+    height: 100%;
+    width: 100%;
+}
+/*Aktivitetsplan*/
+.Aktivitetsplan{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    height: auto;
+    width: 100%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.grå{
+    display: flex;
+    padding-left: 10px;
+    background-color: lightgray;
+}
+
+.hvid{
+    display: flex;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.år{
+    width: 35%;
+}
+
+.grå-hvid-text{
+    width: 65%;
+}
+/*nyhedsbrev*/
+.nyhedsbrev{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    width: 100%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.nyhedsbrev-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+}
+
+/* input */
+input{
+    width: 90%;
+    margin: 5px 0;
+    padding: 7px;
+}
+
+/* #navn{
+
+}
+
+#email{
+    
+} */
+
+#tilmeld{
+    width: 97%;
+    padding: 10px;
+    border: 0;
+    color: white;
+    background-color: red;
+}
+
+/* klubaftener */
+.klubaftener{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.klubaftener-img img{
+    width: 100%;
+}
+/* medlemskab */
+.medlemskab{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.medlemskab-img img{
+    width: 100%;
+}
+/* footer */
+footer{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: white;
+    background-color: rgb(37, 37, 37);
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box{
+    margin: 20px;
+    margin-top: 0;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.footer-box p{
+    margin: 0;
+}
+
+.footer-box1{
+
 }
