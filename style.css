@@ -23,6 +23,11 @@ h3{
     padding: 10px 0;
 }
 
+p{
+    margin: 0;
+    padding: 0;
+}
+
 a{
     text-decoration: none;
 }
@@ -57,13 +62,6 @@ li{
     padding-left: 5px;
 }
 
-.butten{
-    height: 20px;
-    width: 40px;
-    padding: 5px;
-    color: white;
-    background-color: black;
-}
 /* header */
 header{
     display: flex;
@@ -139,19 +137,37 @@ header .current a{
     left: 10px;
 }
 /* info */
+.info-bgc{
+    margin-top: 0px;
+    background-color: rgb(240, 240, 240);
+}
+
 .info{
     display: grid;
     grid-template-columns: 35% 15px 35% 15px auto;
-    grid-template-rows: 30% 15px 21% 15px 430px;
-    height: 1450px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    grid-template-rows: 32% 15px 27% 15px 39%;
+    height: 1100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .padding-red{
-    margin-left: 5px;
-    padding-right: 48px;
+    margin-left: 10px;
+    padding-right: 45px;
 }
+
+.margin-red{
+    margin: 20px 0;
+}
+
+.butten{
+    height: 20px;
+    width: 40px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+
 /*velkommen*/
 .velkommen{
     grid-column-start: 1;
@@ -159,6 +175,7 @@ header .current a{
     grid-row-start: 1;
     grid-row-end: 4;
     height: 100%;
+    background-color: white;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -166,6 +183,11 @@ header .current a{
     height: 100%;
     width: 100%;
 }
+
+.velkommen-box{
+    margin: 15px 0;
+}
+
 /*Aktivitetsplan*/
 .Aktivitetsplan{
     grid-column-start: 5;
@@ -174,17 +196,20 @@ header .current a{
     grid-row-end: 1;
     height: auto;
     width: 100%;
+    background-color: white;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .grå{
     display: flex;
+    padding: 10px 0;
     padding-left: 10px;
     background-color: lightgray;
 }
 
 .hvid{
     display: flex;
+    padding: 10px 0;
     padding-left: 10px;
     background-color: white;
 }
@@ -203,6 +228,7 @@ header .current a{
     grid-row-start: 3;
     grid-row-end: 3;
     width: 100%;
+    background-color: white;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -242,6 +268,7 @@ input{
     grid-column-end: 1;
     grid-row-start: 5;
     grid-row-end: 5;
+    background-color: white;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -254,6 +281,7 @@ input{
     grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 5;
+    background-color: white;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -274,16 +302,26 @@ footer{
 }
 
 .footer-box{
-    margin: 20px;
-    margin-top: 0;
+    margin: 0;
     padding: 20px;
     padding-top: 0;
-}
-
-.footer-box p{
-    margin: 0;
+    padding-left: 0;
 }
 
 /* .footer-box1{
 
 } */
+
+.footer-box2{
+    width: 100%;
+    padding-left: 80px;
+}
+
+.footer-box3{
+    width: 100%;
+
+}
+
+.footer-box p{
+    margin: 0;
+}
