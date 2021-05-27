@@ -74,12 +74,15 @@ header{
 }
 
 .Logo{
+    height: 40px;
+    width: 95px;
     background-color: white;
 }
 
 .Logo img{
-    height: 35px;
-    width: 90px;   
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 10px;
 }
 
 .header-links ul{
@@ -102,6 +105,7 @@ header .current a{
 
 .header-img{
     display: flex;
+    padding-right: 5px;
 }
 
 .icon{
@@ -109,8 +113,8 @@ header .current a{
 }
 
 .icon img{
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     border-radius: 25px;
 }
 /* hero-banner */
