@@ -150,8 +150,8 @@ header .current a{
 .info{
     display: grid;
     grid-template-columns: 35% 15px 35% 15px auto;
-    grid-template-rows: 32% 15px 27% 15px 39%;
-    height: 1100px;
+    grid-template-rows: 34% 15px 25% 15px 38%;
+    height: 1120px;
     padding-top: 10px;
     padding-bottom: 20px;
 }
@@ -161,6 +161,11 @@ header .current a{
     padding-right: 45px;
 }
 
+.padding-red2{
+    margin-left: 10px;
+    padding-right: 30px;
+}
+
 .margin-red{
     margin: 20px 0;
 }
@@ -168,9 +173,9 @@ header .current a{
 .butten{
     height: 20px;
     width: 40px;
-    padding: 5px;
+    padding: 6px 8px;
     color: white;
-    background-color: black;
+    background-color: rgb(46, 46, 46);
 }
 
 /*velkommen*/
