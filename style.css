@@ -105,6 +105,7 @@ header .current a{
 
 .header-img{
     display: flex;
+    padding-top: 5px;
     padding-right: 5px;
 }
 
