@@ -149,11 +149,13 @@ header .current a{
 
 .info{
     display: grid;
-    grid-template-columns: 35% 15px 35% 15px auto;
-    grid-template-rows: 34% 15px 25% 15px 38%;
-    height: 1120px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    grid-template-columns: 35% 35% auto;
+    grid-template-rows: 34% 25% 39%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    height: 1130px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .padding-red{
@@ -181,9 +183,9 @@ header .current a{
 /*velkommen*/
 .velkommen{
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-end: 3;
     height: 100%;
     background-color: white;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
@@ -200,8 +202,8 @@ header .current a{
 
 /*Aktivitetsplan*/
 .Aktivitetsplan{
-    grid-column-start: 5;
-    grid-column-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 1;
     height: auto;
@@ -233,10 +235,10 @@ header .current a{
 }
 /*nyhedsbrev*/
 .nyhedsbrev{
-    grid-column-start: 5;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
     width: 100%;
     background-color: white;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
@@ -276,8 +278,8 @@ input{
 .klubaftener{
     grid-column-start: 1;
     grid-column-end: 1;
-    grid-row-start: 5;
-    grid-row-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
     background-color: white;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
@@ -287,10 +289,10 @@ input{
 }
 /* medlemskab */
 .medlemskab{
-    grid-column-start: 3;
-    grid-column-end: 3;
-    grid-row-start: 5;
-    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
     background-color: white;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
