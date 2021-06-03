@@ -67,7 +67,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: sticky;
     height: 50px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
     z-index: 2;
@@ -93,12 +93,13 @@ header{
 }
 
 .header-links a{
+    display: inline;
     font-weight: 500;
     color: black;
 }
 
 header .current a{
-    padding: 15px 5px;
+    padding: 15px 7px;
     color: white;
     background-color: red;
 }
@@ -150,10 +151,8 @@ header .current a{
 .info{
     display: grid;
     grid-template-columns: 35% 35% auto;
-    grid-template-rows: 34% 25% 39%;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    height: 1130px;
     padding-top: 20px;
     padding-bottom: 50px;
 }
@@ -173,9 +172,9 @@ header .current a{
 }
 
 .butten{
-    height: 20px;
-    width: 40px;
-    padding: 6px 8px;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px 10px;
     color: white;
     background-color: rgb(46, 46, 46);
 }
@@ -212,18 +211,15 @@ header .current a{
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-.grå{
-    display: flex;
-    padding: 10px 0;
-    padding-left: 10px;
-    background-color: lightgray;
-}
-
-.hvid{
+.Aktivitetsplan-text-box{
     display: flex;
     padding: 10px 0;
     padding-left: 10px;
     background-color: white;
+}
+
+.Aktivitetsplan-text-box:nth-child(even){
+    background-color: lightgray;
 }
 
 .år{
@@ -311,27 +307,14 @@ footer{
 .footer-info{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer-box{
-    margin: 0;
-    padding: 20px;
-    padding-top: 0;
-    padding-left: 0;
-}
-
-/* .footer-box1{
-
-} */
-
-.footer-box2{
-    width: 100%;
-    padding-left: 80px;
-}
-
-.footer-box3{
-    width: 100%;
-
+    flex: 1 0 32%;
+    /*grow shrink basis*/
+    margin-right: 5px;
+    padding-bottom: 40px;
 }
 
 .footer-box p{
